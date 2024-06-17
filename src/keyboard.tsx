@@ -3,4 +3,4 @@ const KEYS = [
 ]
 export function Keyboard() {
 
-}
+};
