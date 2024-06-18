@@ -4,7 +4,7 @@ type HangmanDrawingProps = {
     reveal?: boolean
 }
 
-export function HangmanWord({ guessedLetters, wordToGuess, reveal:false }:
+export function HangmanWord({ guessedLetters, wordToGuess, reveal=false }:
     HangmanDrawingProps
 ) {
     return (<div 
